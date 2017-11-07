@@ -7,6 +7,7 @@ import Company from './components/About/Company/Company.js';
 import People from './components/People/People.js';
 import Character from './components/Character/Character.js';
 import Missing from './components/Missing/Missing.js';
+import Contact from './components/Contact/Contact.js';
 
 export default (
     <div>
@@ -15,6 +16,7 @@ export default (
       <Link to='/people'>People</Link>
       <Switch>
         <Route exact path='/' component={Home}/>
+        <Route path = "/contact" component = {Contact}/>
         <Route path='/about' render={() => {
           return (
             <About>
