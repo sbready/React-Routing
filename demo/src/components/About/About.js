@@ -5,9 +5,8 @@ export default function About(props) {
   return (
     <div>
       <h1>This is the About component</h1>
-      <Link to='/about/faq'>FAQ</Link>
-      <Link to='/about/company'>Company</Link>
-      {props.children}
+      TODO input routes to sub about section
+      TODO use props.children to sepcify where subroutes should go.
     </div>
   )
 }

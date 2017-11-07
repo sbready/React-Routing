@@ -12,7 +12,6 @@ export default class People extends Component {
 
   componentDidMount() {
     // axios call would go here to get data
-    console.log(this.props);
     let people = getPeople() // getting people data from service file
     this.setState({
       people: people // updating state with people data
@@ -22,9 +21,10 @@ export default class People extends Component {
   render() {
     const people = this.state.people.map((e, i) => {
       return (
-        <Link to={`/people/${e.id}`} key={i}>
+        {/* TODO put in Link tags to take us to each specific person based on the person's id. */}
+
           <h3>{e.name}</h3>
-        </Link>
+
       )
     })
     return (

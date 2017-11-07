@@ -6,8 +6,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/* before all the routing was in this file... we moved it to router.js for organization */}
-          {router}
+        {/* TODO Build Routing inside our App */}
       </div>
     );
   }
