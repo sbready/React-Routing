@@ -7,6 +7,7 @@ class App extends Component {
     return (
       <div>
         {/* TODO Build Routing inside our App */}
+        We need to build some routes.
       </div>
     );
   }

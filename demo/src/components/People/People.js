@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { getPeople } from '../../usersService.js';
-import { Link } from 'react-router-dom';
 
 export default class People extends Component {
   constructor() {
