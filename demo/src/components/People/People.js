@@ -12,6 +12,7 @@ export default class People extends Component {
 
   componentDidMount() {
     // axios call would go here to get data
+    console.log(this.props);
     let people = getPeople() // getting people data from service file
     this.setState({
       people: people // updating state with people data

@@ -1,21 +1,21 @@
 const people = [
   {
-    name: 'Ansel Adams',
+    name: 'Alan Turing',
     id: 1,
-    image: 'http://shop.anseladams.com/v/vspfiles/photos/1715073-2.jpg',
-    description: 'Black and white nature to the rescue. Zone system anyone?'
+    image: 'https://www.biography.com/.image/t_share/MTE5NDg0MDU1MTUzMTE2Njg3/alan-turing-9512017-1-402.jpg',
+    description: '"Machines take me by surprise with great frequency."'
   },
   {
-    name: 'Sally Mann',
+    name: 'G. H. Hardy',
     id: 2,
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Sally_Mann.jpg',
-    description: "Proving that moms can be ballin' photographers"
+    image: 'https://upload.wikimedia.org/wikipedia/commons/3/35/Ghhardy%4072.jpg',
+    description: '"A mathematician, like a painter or poet, is a maker of patterns. If his patterns are more permanent than theirs, it is because they are made with ideas."'
   },
   {
-    name: 'Richard Avedon',
+    name: 'Sofia Kovalevskaya',
     id: 3,
-    image: 'https://maryckhayes.files.wordpress.com/2012/08/sfmoma_avedon_06_selfportrait.jpg?w=828',
-    description: 'White background with famous people and sometimes bees'
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Sofja_Wassiljewna_Kowalewskaja_1.jpg/330px-Sofja_Wassiljewna_Kowalewskaja_1.jpg',
+    description: '"It is impossible to be a mathematician without being a poet in soul."'
   }
 ]
 
