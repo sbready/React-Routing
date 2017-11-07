@@ -2,10 +2,10 @@ img {
     max-height: 400px;
 }
 
-.selected-link{
-  background-color: tomato;
-}
-
 a {
   margin-left: 10px;
+}
+
+.selected-link{
+  background-color: tomato;
 }
